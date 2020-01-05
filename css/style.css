@@ -27,7 +27,6 @@ body {
     font-size: 100%; /* 16px */
     line-height: 1.5em;
   }
-}
 
 nav {
   background-color: rgba(0,0,0,.5);
@@ -47,6 +46,7 @@ nav {
 
 .medium-pic {
   width: 70%;
+  padding-top: 80px;
 }
 
 .left, .right {
@@ -60,6 +60,9 @@ nav {
 a {
   text-decoration: none;
 }
+a:hover {
+  color: red;
+}
 ul {
   list-style-type: none;
   float: right;
@@ -68,6 +71,11 @@ ul {
 li {
   float: right;
   padding: 30px;
+}
+
+li:hover {
+  color: red;
+}
 
 }
 
