@@ -1,0 +1,74 @@
+body {
+  background-color: #eef4fb;
+  color: #03152b;
+  font-size: 16px;
+}
+  .image1 {
+  background-image: url(images/bloc-logo.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.medium-pic {
+  background-image: url(images/instagram-pic.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  }
+/* Font styles
+*/
+  h1 {
+    font-size: 2.5em; /* 32px */
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 1.5em;
+    font-style: italic;
+  }
+  p {
+    font-size: 100%; /* 16px */
+    line-height: 1.5em;
+  }
+nav {
+  background-color: rgba(0,0,0,.5);
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+.large-pic {
+  width: 100%;
+}
+.medium-pic {
+  width: 70%;
+  padding-top: 80px;
+}
+.left, .right {
+  float: left;
+  width: 50%;
+}
+.right {
+  float: right;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+ul {
+  list-style-type: none;
+  float: right;
+}
+li {
+  float: right;
+  padding: 30px;
+}
+article {
+  padding-top: 100px;
+}
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
